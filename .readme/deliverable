@@ -1,0 +1,7 @@
+While developing the code, I aimed to anticipate all potential sources of errors or unexpected outcomes in the program. 
+These considerations encompassed scenarios such as returning inaccurate data or attempting to retrieve information for a user that did not exist.
+I also took into account the possibility of a valid GitHub user having zero repositories (Fake GITHUB ADDRESS) . However, due to the absence of readily available examples of such accounts, 
+I had to exclude this case from our testing. Nevertheless, during the implementation of my program, I diligently verified the presence of content in the data retrieved. 
+If the data lacked content, GitHub would provide a status code. To facilitate testing for specific situations, I incorporated error messages for conditions such as the absence of repositories or commits.
+ 
+In general, there is room for further refinement of our test cases, but it would require access to user profiles that match the expected error scenarios to enhance our testing procedures.
